@@ -10,8 +10,8 @@ package:
 source:
   fn: cluster_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/cluster_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/cluster/cluster_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/cluster_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/cluster/cluster_{{ version }}.tar.gz
   sha256: f424b87f10595ed358b1ac80471b520ab9c767a4d203663c25b177c8ce5f8ffc
 
 
